@@ -1,0 +1,53 @@
+.imgDetail {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.iconButton {
+    width: 30px;
+    height: 30px;
+}
+
+.itemDetail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+.cardDesc {
+    padding:0 20px;
+}
+
+.cardButtons {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.cardButtons button {
+    margin: 0 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.buttonCards {
+    margin: 0 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    padding: 10px;
+    border-radius: 10%;
+}
+
+
